@@ -57,8 +57,9 @@ class App extends React.Component {
 
 const RightSide = props => {
   return (
+    {/* Add the'right' class to the div so that the text is displayed the first time */}
     <div
-      className="right-side"
+      className="right-side right"
       ref={props.containerRef}
       onClick={props.onClick}
     >
